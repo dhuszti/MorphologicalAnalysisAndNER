@@ -1,0 +1,3 @@
+It is a git for morphological analysis and NER in Hungarian language.
+
+You need to install HunMorph, HunPos, Java, ...
