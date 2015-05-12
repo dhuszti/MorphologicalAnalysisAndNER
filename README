@@ -1,3 +1,11 @@
 It is a git for morphological analysis and NER in Hungarian language.
 
-You need to install HunMorph, HunPos, Java, ...
+You need to install HunMorph, HunPos, Java, GCC, ...
+
+How to use (if those tools are installed):
+1. open terminal
+2. change to directory where these files are downloaded
+3. determine these parameters to be able to run from command line
+-i <inputfile> -o <outputfile> --afffile <aff_hunmorph> --dicfile <dic_hunmorph> --modfile <model_hunpos> --hptfile <hunpostagger_hunpos>
+
+EXAMPLE: python morphological_analysis.py -i /home/hd/Desktop/test.txt -o /home/hd/Desktop/MA.txt --afffile /home/hd/Desktop/morphdb.hu/morphdb_hu.aff --dicfile /home/hd/Desktop/morphdb.hu/morphdb_hu.dic --modfile /usr/local/bin/hu_szeged_kr.model --hptfile /home/hd/Desktop/hunpos-1.0-linux/hunpos-tag

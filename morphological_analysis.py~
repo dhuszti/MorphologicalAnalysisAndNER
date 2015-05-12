@@ -33,6 +33,11 @@ def main(argv):
 		elif opt in ("--hptfile"):
 	 		hptfile = arg
 
+	print inputfile	
+	print afffile
+	print dicfile
+	print modfile
+	print hptfile
 
 	# current working directory
 	homepath = os.getcwd()
